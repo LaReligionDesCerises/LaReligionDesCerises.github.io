@@ -1,0 +1,67 @@
+html{
+cursor: crosshair;
+font-size: 102%;
+}
+
+
+body {
+background-color : #000000 ;
+color : #ffffff ;
+font-family:Courier New,sans-serif;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+h1{
+/*font-family:Lucida Console,sans-serif;*/
+font-family:FreeMono,sans-serif;
+  background-image: repeating-linear-gradient(10deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  background-size: 500% 500%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 5s ease infinite;
+  
+}
+
+
+a:link {
+  color: #00ff00;
+  text-decoration:none
+}
+
+/* visited link */
+a:visited {
+  color: #00ff00;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+  text-decoration:underline;
+  cursor: cell;
+}
+
+
+/* selected link */
+a:active {
+  color: #00ff00;
+}
+
+p{
+    font-size: 110%;
+}
+
+footer{
+position: fixed;
+bottom: 0; 
+right: 0; 
+font-size: 70%;
+margin-right: 10px;
+}
+
+@keyframes rainbow { 
+    0%{background-position:0% 100%}
+    25%{background-position:25% 75%}
+    50%{background-position:50% 50%}
+    75%{background-position:75% 25%}
+    100%{background-position:100% 0%}
